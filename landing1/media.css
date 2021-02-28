@@ -1,0 +1,30 @@
+@media(max-width: 575px){
+	.menu{
+		position: static;
+	}
+	.menu a{
+		width: 100%;
+		padding: 20px 0;
+	}
+	.header{
+		padding: 100px 10px;
+		margin-top: 0;
+		background-size: cover;
+		background-position: center;
+		min-height: 300px;
+	}
+	#about img{
+		float: none;
+		margin: 0 auto;
+	}
+	.member{
+		display: block;
+		width: 85%;
+	}
+	.tarif{
+		width: 80%;
+	}
+	#contact button{
+		margin-bottom: 20px;
+	}
+}
