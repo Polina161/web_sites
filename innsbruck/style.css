@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+html, body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Sans', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.conteiner{
+	width: 1200px;
+	margin: 0 auto;
+}
+.page-header{
+	display: flex;
+	margin-top: 10px;
+}
+.main-menu{
+	flex-grow: 1;
+}
+.main-menu-list{
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+}
+.main-menu-list a{
+	font-size: 30px;
+	line-height: 41px;
+	color: #2A3D8F;
+}
+.main-menu-list a:hover{
+	color: #3893cc;
+}
+.page-footer{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 35px 0;
+	
+}
+
+.hashtag{
+	margin: 0;
+	padding: 0;
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+}
+.footer-social{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+}
+.copyrigth{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 400;
+}
+.social-button{
+	margin: 0 10px;
+}
+.footer-wrapper{
+	background-color: #B5D4C5;
+}
+.slogan{
+	background-image: url(img/innsbruck1.png);
+	width: 100%;
+	height: 500px; 
+	background-repeat: no-repeat;
+}
+.slogan img{
+	position: relative;
+}
+.slogan p{
+	margin: 230px 500px;
+	position: absolute;
+	color: white;
+	font-size: 40px;
+	font-family: 'Rubik', sans-serif;
+}
+h2{
+	color: #2A3D8F;
+	font-size: 36px;
+	line-height: 49px;
+}
+h3{
+	font-size: 30px;
+	line-height: 41px;
+}
+.wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+.about-numbers-list{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	padding-left: 20px;
+}
+.about-numbers-list li::before{
+	content: "✓";
+	margin-right: 3px;
+}
+.marketing{
+	display: flex; 
+	flex-direction: column;
+	background-image: url(img/skier.png);
+	background-size: cover;
+	background-position: center right;
+	width: 30%;
+}
+.marketing p{
+	margin: 0;
+	padding: 5px;
+	text-transform: uppercase;
+	font-size: 32px;
+	line-height: 33px;
+}
+.marketing a{
+	color: black;
+	display: inline-block;
+	margin-top: 50px;
+	align-self: flex-end;
+	background-color: white;
+	opacity: 0.7;
+	padding: 5px 10px;
+}
+.about-weather-graph{
+	border: solid thin #c0c0c0;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	background-color: grey;
+	text-align: center;
+	color: white;
+}
+.about-weather-graph img{
+	height: 600px;
+}
+figcaption{
+	padding: 25px 0;
+
+}
+.gallery-list{
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.gallery-item{
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 10px;
+	align-items: center;
+	min-height: 256px;
+	text-align: center;
+	background-color: #B5D4C5;
+	color: white;
+}
+.gallery-item p{
+	flex-grow: 1;
+	font-weight: bold;
+	font-size: 27px;
+}
+.transfer{
+	border-collapse: collapse;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.transfer thead{
+	background-color: #1F0868;
+	color: white;
+}
+.transfer td, th{
+	border: solid 1px black;
+	width: 25%;
+	padding: 5px;
+}
